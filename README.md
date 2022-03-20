@@ -14,6 +14,7 @@ A Python dictionary with Redis as the storage back-end, with support for nested 
   docker run -p 6379:6379 --name redis-redisjson redislabs/rejson:latest
   ```
   - Build from source
+  
     ***Install Rust***
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
